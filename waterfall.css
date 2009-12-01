@@ -1,0 +1,121 @@
+body {
+  background: black;
+  font-family: "Helvetica";
+  color: #999;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}  
+
+#header {
+  height: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 5px;
+  text-align: right;
+  padding-top: 4px;
+}
+
+#desc {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #555;
+}
+
+#google {
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #555;
+  letter-spacing: 0px;
+  font-weight: normal;
+  text-shadow: #222 0 1px 0;
+  font-family: serif;
+}
+
+#google .blue { color: #174cf2; }
+#google .red { color: #d21a10; }
+#google .yellow { color: #fcb404; }
+#google .green { color: #059e1a; }
+
+
+#drops {
+  font-size: 96px;
+  font-weight: bold;
+}
+
+.droplet {
+  line-height: 0.8em;
+  
+}
+
+.droplet .country {
+  font-size: 36px;
+  line-height: 0.8em;
+  color: #555;
+  text-shadow: none;
+}
+
+.droplet-spring {
+  -webkit-animation-name: spring;
+  /* -webkit-animation-duration: 0.5s; */
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+}
+
+@-webkit-keyframes spring {
+  0% {
+    -webkit-transform: translateY(-30px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+  }
+}
+
+/* heat */
+
+.popfreeze {
+  color: #2DADF9;
+  font-size: 0.5em;
+}
+.popcold {
+  color: #76C4F2;
+  font-size: 0.6em;
+}
+.poproom {
+  color: #11ECA4;
+  font-size: 0.7em;
+}
+.popwarm {
+  color: #F3F13D;
+  font-size: 0.8em;
+}
+.pophot {
+  color: #F3B33D;
+  font-size: 0.9em;
+}
+.popsizzle {
+  color: #F34B3D;
+  font-size: 1.0em;
+}
+
+/* preview iframe */
+
+#preview {
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  width: 320px;
+  height: 480px;
+  background-color: white;
+  border: 1px solid #aaa;
+  z-index: 0;
+}

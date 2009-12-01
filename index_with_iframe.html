@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">    
+    <script src="closure/closure/goog/base.js"></script>
+    <script src="source.js"></script>
+    <script src="waterfall.js"></script>
+    <link rel="stylesheet" href="reset.css" type="text/css" media="screen" title="" charset="utf-8">  
+    <link rel="stylesheet" href="waterfall.css" type="text/css" media="screen" title="" charset="utf-8">  
+  </head>
+  <body onload="main()">
+    <div id="header">
+      <div id="desc">google mobile app voice search queries.</div>
+      <div id="google" onclick="wf.toggle(); return false"><span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span></div>
+      <div class="clear"></div>
+    </div>
+    <iframe id="preview" src="http://www.google.com/m/search?q=pizza&source=mobilesearchapp&uipref=6"
+    width="320" height="480"></iframe>
+    <div id="drops"></div>
+    <!--
+    <div class="droplet popfreeze">freeze<span class="country">aus</span></div>
+    <div class="droplet popcold">cold<span class="country">usa</span></div>
+    <div class="droplet poproom">room temperature<span class="country">can</span></div>
+    <div class="droplet popwarm">warm<span class="country">gbr</span></div>
+    <div class="droplet pophot">hot<span class="country">jpn</span></div>
+    <div class="droplet popsizzle">sizzle<span class="country">rus</span></div>
+    -->    
+  </body>
+</html>
